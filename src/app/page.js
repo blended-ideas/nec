@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <p className={styles.infoText}>
             Get ready to embark on a journey of regeneration with Us.
-            We're gearing up to revolutionize the way you interact with the environment, offering a suite of services designed to breathe new life into your eco-practices.
+            We are gearing up to revolutionize the way you interact with the environment, offering a suite of services designed to breathe new life into your eco-practices.
           </p>
 
           <p className={styles.infoText}>
