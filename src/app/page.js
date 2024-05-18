@@ -1,6 +1,8 @@
-import Hero from "./components/Hero";
-import Header from "../components/Header";
-import HeroAlt from "./components/HeroAlt";
+import Header from "@/components/Header";
+import Hero from "./pageComponents/Hero";
+import HeroAlt from "./pageComponents/HeroAlt";
+import Location from "./pageComponents/Location";
+import Footer from "./pageComponents/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Hero />
       <Header />
       <HeroAlt />
+      <Location />
+      <Footer />
     </>
   );
 }

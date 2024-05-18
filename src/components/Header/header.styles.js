@@ -1,14 +1,12 @@
+'use client';
 import { styled } from "styled-components";
-import Container from "../Container";
+import Link from 'next/link';
+import { Container } from "../Container";
 
 export const StyledHeader = styled(Container)`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
-
-    @media (min-width: 480px) {    
-        flex-direction: row;
-    }
 
     background-color: var(--color-white);
     position: sticky;
@@ -17,19 +15,18 @@ export const StyledHeader = styled(Container)`
     z-index: 1;
 `;
 
-export const Navigation = styled.ul`
+export const Navigation = styled.div`
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0;
-
-    @media (min-width: 480px) {    
-        margin-left: auto;
-        gap: 1rem;
-    }
+    margin-left: auto;
+    gap: 1rem;
 `;
 
-export const NavigationItem = styled.li`
+export const NavigationItem = styled(Link)`
     cursor: pointer;
+    text-decoration: none;
+    color: inherit;
 `;

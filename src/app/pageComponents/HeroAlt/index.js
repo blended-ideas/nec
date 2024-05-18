@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import styles from './HeroAlt.module.css';
 import { Info, InfoText, Main, InfoHeader, Logo, Container } from './HeroAlt.styles';
 
 export default function HeroAlt() {
@@ -10,7 +9,6 @@ export default function HeroAlt() {
         <Logo
           src="/logo.png"
           alt="Nisarga Eco Consultants"
-          className={styles.logo}
           width={750}
           height={250}
           priority

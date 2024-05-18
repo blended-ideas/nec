@@ -1,23 +1,24 @@
-'use client';
 import Image from 'next/image';
 import React from 'react';
 import { StyledHeader, Navigation, NavigationItem } from './header.styles';
-import Container from '../Container';
+import Link from 'next/link';
 
 export default function Header() {
     return (
         <StyledHeader as="header">
-            <Image
-                src="/logo.png"
-                alt="Nisarga Eco Consultants"
-                width={96}
-                height={32}
-                priority
-            />
+            <Link href="/">
+                <Image
+                    src="/logo.png"
+                    alt="Nisarga Eco Consultants"
+                    width={96}
+                    height={32}
+                    priority
+                />
+            </Link>
 
             <Navigation>
-                <NavigationItem>About</NavigationItem>
-                <NavigationItem>Services</NavigationItem>
+                <NavigationItem href="/about">About</NavigationItem>
+                <NavigationItem href="/services">Services</NavigationItem>
             </Navigation>
         </StyledHeader>
     )
