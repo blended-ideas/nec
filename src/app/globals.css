@@ -1,3 +1,13 @@
+
+:root {
+  --color-primary: #1EDBEE;
+  --color-primary-dark: #008DD2;
+  --color-black: #2e2e2e;
+  --color-white: #f3f3f3;
+  --color-secondary: #80cb28;
+  --color-secondary-dark: #27963c;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -8,6 +18,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
+  color: var(--color-black);
 }
 
 img, picture, video, canvas, svg {
