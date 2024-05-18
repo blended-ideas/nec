@@ -1,8 +1,7 @@
 'use client';
-import { Container } from "@/components/Container";
 import { styled } from "styled-components";
 
-export const CustomContainer = styled(Container)`
+export const CustomContainer = styled.div`
     height: calc(100vh - 64px);
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
@@ -41,6 +40,7 @@ export const Label = styled.div`
 
 export const CenterContent = styled.div`
     padding: 2rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;

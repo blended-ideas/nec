@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import { Page } from '@/components/Page';
 import React from 'react';
 import { CustomContainer, Label, CenterContent, EmptySection } from './AboutUs.styles';
+import Footer from '../pageComponents/Footer';
 
 export const metadata = {
   title: "Nisarga Eco Consultants | About Us",
@@ -23,6 +24,7 @@ export default function AboutUs() {
         </CenterContent>
         <EmptySection/>
       </CustomContainer>
+      <Footer />
     </>
   )
 }
