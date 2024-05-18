@@ -23,7 +23,8 @@ export default function HeroAlt() {
           </InfoHeader>
 
           <InfoText>
-            At Nisarga Eco Consultants, we are dedicated to providing innovative and sustainable solutions to help you manage and conserve resources effectively. 
+            At Nisarga Eco Consultants, we are dedicated to providing innovative and sustainable
+            solutions to help you manage and conserve resources effectively.
           </InfoText>
         </Info>
 
