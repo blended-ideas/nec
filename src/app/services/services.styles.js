@@ -32,7 +32,7 @@ export const Service = styled.li`
     gap: 2rem;
     padding: 2rem;
 
-    @media (min-width: 500px) {    
+    @media (min-width: 500px) {
         grid-template-columns: 1fr 1fr;
     }
 `;
