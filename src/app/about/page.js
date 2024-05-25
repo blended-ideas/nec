@@ -1,8 +1,7 @@
 import Header from '@/components/Header';
-import { Page } from '@/components/Page';
+import Footer from '@/components/Footer';
 import React from 'react';
-import { CustomContainer, Label, CenterContent, EmptySection } from './AboutUs.styles';
-import Footer from '../pageComponents/Footer';
+import { CustomContainer, Label, CenterContent, EmptySection, CustomCenterImage } from './AboutUs.styles';
 
 export const metadata = {
   title: "Nisarga Eco Consultants | About Us",
@@ -16,13 +15,22 @@ export default function AboutUs() {
       <CustomContainer>
         <Label>About Us</Label>
         <CenterContent>
-          Nisarga Eco Consultants comprises a team of skilled Environmental Professionals dedicated to providing
-          top-notch Environmental consulting services. Our mission centers on client contentment, fostering
-          sustainable development, and advancing environmental stewardship. We extend a range of Environmental
-          Services catering to individuals, institutions, industries, as well as Government and Non-Government
-          Organizations.
+          <CustomCenterImage
+            src="/logo.png"
+            alt="Nisarga Eco Consultants"
+            width={192}
+            height={64}
+            priority />
+
+          <p>
+            Nisarga Eco Consultants comprises a team of skilled Environmental Professionals dedicated to providing
+            top-notch Environmental consulting services. Our mission centers on client contentment, fostering
+            sustainable development, and advancing environmental stewardship. We extend a range of Environmental
+            Services catering to individuals, institutions, industries, as well as Government and Non-Government
+            Organizations.
+          </p>
         </CenterContent>
-        <EmptySection/>
+        <EmptySection />
       </CustomContainer>
       <Footer />
     </>

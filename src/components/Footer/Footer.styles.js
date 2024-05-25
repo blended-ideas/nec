@@ -1,10 +1,14 @@
 'use client';
 import { styled } from "styled-components";
+import { Container } from "../Container";
 
 export const StyledFooter = styled.footer`
     border-top: 1px solid lightgray;
-    padding: 2rem 1rem;
-    max-width: 1080px;
+`;
+
+export const CustomContainer = styled(Container)`
+     padding: 2rem 1rem;
+    /* max-width: 1080px; */
     margin: auto;
 
     display: flex;
