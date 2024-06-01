@@ -15,7 +15,7 @@ export const InfoSectionContainer = styled(Container)`
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
 
-        padding: 0;
+        padding: 2rem 0;
     }
 `;
 

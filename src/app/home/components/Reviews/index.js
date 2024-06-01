@@ -8,13 +8,13 @@ const REVIEWS = [
         designation: 'Homemaker',
         review: `
             I couldn't be happier with the rainwater harvesting system installed by Nisarga Eco Consultants.
-            Not only have we significantly reduced our reliance on municipal water, but my garden has never looked greener.
+            Not only have we significantly reduced our reliance on BWSSB water, but my garden has never looked greener.
             The team was professional, knowledgeable, and made the entire process seamless.
             It's a great feeling to contribute to water conservation while also saving on our water bills!
         `
     },
     {
-        name: 'Mark T',
+        name: 'Rahul SR',
         designation: 'CEO of GreenTech Industries',
         review: `
             Nisarga Eco Consultants conducted a comprehensive Energy Audit for our manufacturing facility, and the results were astounding.
@@ -24,14 +24,13 @@ const REVIEWS = [
         `
     },
     {
-        name: 'Emily R',
-        designation: 'Community Center Manager',
+        name: 'Dr. Arpitha',
+        designation: 'MD - Community Medicine',
         review: `
-            The composting program implemented by Nisarga Eco Consultants has been a game-changer for our community center. 
+            The composting program implemented by Nisarga Eco Consultants has been a game-changer for our community. 
             We've diverted a substantial amount of organic waste from landfills and produced high-quality compost that we use 
-            in our community garden.
-            The educational workshops they provided were also fantastic, helping us and our community members understand the 
-            importance and benefits of composting.
+            in our community garden. The educational workshops they provided were also fantastic, helping us and our community
+            members understand the importance and benefits of composting.
         `
     }
 ]

@@ -4,6 +4,10 @@ import styled, { css } from "styled-components";
 
 export const ReviewsBG = styled.section`
     background-color: var(--color-light-gray);
+    
+    @media (min-width: 500px) {
+        padding: 2rem 0;
+    }
 `;
 
 export const ReviewsContainer = styled(Container)`
@@ -13,7 +17,7 @@ export const ReviewsContainer = styled(Container)`
     justify-content: stretch;
     align-items: stretch;
 
-    padding: 1rem;
+    padding: 4rem 1rem;
 
     @media (min-width: 500px) {
         padding: 4rem 0;
@@ -25,6 +29,7 @@ export const Title = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    
     & p {
         background-color: var(--color-secondary-dark);
         color: var(--color-white);
@@ -36,6 +41,7 @@ export const Title = styled.div`
 export const CurrentReviewText = styled.p`
     font-weight: 600;
     font-size: 1.5rem;
+
 `;
 
 export const Reviewers = styled.ul`
@@ -43,6 +49,7 @@ export const Reviewers = styled.ul`
     list-style: none;
     
     display: flex;
+    gap: 2rem;
     flex-direction: column;
 
     @media (min-width: 500px) {    
@@ -70,6 +77,6 @@ export const Reviewer = styled.li`
 
     & h6 {
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 `;

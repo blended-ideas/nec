@@ -1,25 +1,33 @@
 'use client';
 import { styled } from "styled-components";
 import { Container } from "../Container";
+import Link from "next/link";
+import Image from "next/image";
 
 export const StyledFooter = styled.footer`
-    border-top: 1px solid lightgray;
+    color: var(--color-white);
+    background: #032A17;
+    padding: 2rem 1rem;
+
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+
+    @media (min-width: 500px) {
+        padding: 4rem 0;
+    }
 `;
 
-export const CustomContainer = styled(Container)`
-     padding: 2rem 1rem;
-    /* max-width: 1080px; */
-    margin: auto;
-
+export const ContactContainer = styled(Container)`
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
     gap: 2rem;
+    
+    /* align-items: center; */
+    justify-content: center;
 
-    @media (min-width: 500px) {    
+    @media (min-width: 500px) {
         flex-direction: row;
+        padding: 1rem 0;
     }
 `;
 
@@ -27,6 +35,10 @@ export const ContactInfo = styled.div`
     display: flex;
     gap: .5rem;
     flex-direction: column;
+
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
 `;
 
 export const ContactInfoItem = styled.div`
@@ -38,9 +50,43 @@ export const ContactInfoItem = styled.div`
     a {
         cursor: pointer;
         text-decoration: none;
+        color: var(--color-white);
     }
 `;
 
-export const Rights = styled.div`
+export const Links = styled.div`
+    display: flex;
+    flex-direction: column;
 
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+`;
+
+export const LinkItem = styled(Link)`
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--color-white);
+    
+    font-size: 1.5rem;
+`;
+
+export const RightsInfo = styled.p`
+    text-align: center;
+`;
+
+export const LogoContainer = styled(Container)`
+    margin-bottom: 1%.5;
+`;
+
+export const LogoLink = styled(Link)`
+    display: inline;
+`;
+
+export const Logo = styled(Image)`
+    margin: auto;
+
+    @media (min-width: 500px) {
+        margin: 0;
+    }
 `;
