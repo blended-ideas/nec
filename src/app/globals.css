@@ -1,4 +1,3 @@
-
 :root {
   --color-primary: #1EDBEE;
   --color-primary-dark: #008DD2;
@@ -6,6 +5,8 @@
   --color-white: #fefefe;
   --color-secondary: #80cb28;
   --color-secondary-dark: #27963c;
+
+  --header-height: 4rem;
 }
 
 *, *::before, *::after {

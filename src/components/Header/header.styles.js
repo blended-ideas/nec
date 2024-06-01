@@ -7,18 +7,16 @@ export const StyledHeader = styled.header`
     background-color: var(--color-white);
     position: sticky;
     top: 0;
-    padding: 1rem 2rem;
     z-index: 1;
 `;
 
 export const Navigation = styled.div`
     list-style: none;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0;
-    margin-left: auto;
-    gap: 1rem;
+    display: flex;
+    gap: 2.5rem;
+    font-weight: 500;
 `;
 
 export const NavigationItem = styled(Link)`
@@ -29,6 +27,12 @@ export const NavigationItem = styled(Link)`
 
 export const CustomContainer = styled(Container)`
     display: flex;
-    flex-direction: row;
-    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-height);
+    padding: 0 1rem;
+
+    @media (min-width: 500px) {
+        padding: 0;
+    }
 `;
