@@ -25,7 +25,7 @@ export default function Hero() {
     <FullContainer>
       <CustomContainer>
         <TextContainer>
-          <Header>Renew, Reuse, <br />Recycle</Header>
+          <Header>Greening the globe, Consulting with care</Header>
           <Info>Discover how your small actions can make a big impact as we work together to reduce waste,
             conserve resources, and protect our planet for generations to come.</Info>
 
