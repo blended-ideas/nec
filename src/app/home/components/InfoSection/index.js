@@ -8,13 +8,15 @@ export default function InfoSection() {
             <TextArea>
                 <h3>Sustainability Is More Than A Goal <br /> – It&apos;s Our Mission</h3>
                 <p>
-                    At EcoSolutions, we are dedicated to providing innovative and sustainable solutions to help
-                    you manage and conserve resources effectively. Our comprehensive services in Rainwater Harvesting,
-                    Green Audit, Energy Audit, Environment Audit, and Composting are designed to promote environmental
-                    responsibility and operational efficiency for individuals, businesses, and communities.
+                At Nisarga Eco Consultants, we are dedicated to providing innovative and sustainable solutions to help you
+                manage and conserve resources effectively. Our comprehensive services in Rainwater Harvesting, Green Audit, 
+                Energy Audit, sewage treatment plants, water treatment plants, biogas plant, effulent treatment plants,
+                design of sewer networks, design of nature based sewage treatment units, Environment Audit, and Composting
+                are designed to promote environmental responsibility and operational efficiency for individuals, businesses, 
+                and communities.
                 </p>
             </TextArea>
-            <StatsArea>
+            {/* <StatsArea>
                 <StatsList>
                     <StatItem>
                         <dt>300</dt>
@@ -29,7 +31,7 @@ export default function InfoSection() {
                         <dd>Workshops Conducted</dd>
                     </StatItem>
                 </StatsList>
-            </StatsArea>
+            </StatsArea> */}
         </InfoSectionContainer>
     )
 }

@@ -36,7 +36,7 @@ export default function Footer() {
         <Links>
           <LinkItem href="/about">About Us</LinkItem>
           <LinkItem href="/services">Our Services</LinkItem>
-          <LinkItem target='_blank' href="https://forms.gle/Dj48WBxpiudhPtPdA">Contact Us</LinkItem>
+          <LinkItem target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSdTlygLlHTX6bZiRaHtqL-Amvys-Q_1vCHmosmxqx41xHEMtQ/viewform?usp=sf_link">Contact Us</LinkItem>
         </Links>
       </ContactContainer>
       <RightsInfo>© {year} Nisarga Eco Consultants - All Rights Reserved.</RightsInfo>

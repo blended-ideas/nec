@@ -27,7 +27,9 @@ export default function Hero() {
         <TextContainer>
           <Header>Greening the globe, Consulting with care</Header>
           <Info>Discover how your small actions can make a big impact as we work together to reduce waste,
-            conserve resources, and protect our planet for generations to come.</Info>
+            conserve resources, and protect our planet for generations to come. Our firm also conducts green,
+            energy audits for educational institutions, helping them to identify opportunities for energy savings and 
+            sustainable practices.</Info>
 
           <KnowMoreButton href="/services">Know More</KnowMoreButton>
         </TextContainer>

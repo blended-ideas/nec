@@ -77,6 +77,17 @@ export default function Services() {
                                 <p>At Nisarga Eco Consultants, we&apos;ve pioneered an Aerobic composting technology capable of composting wet waste within 35-50 days. This innovative approach is suitable for both individual households and large-scale waste generators.</p>
                             </ServiceInfo>
                         </Service>
+
+                        <Service>
+                            <ServiceImageContainer>
+                                <ServiceImage src='/services/workshop.svg' alt="Workshop" height={100} width={100} />
+                            </ServiceImageContainer>
+                            <ServiceInfo>
+                                <h2>Workshops</h2>
+                                <h3>Learn to save</h3>
+                                <p>We organize workshops on sustainable living, nature based sewage treatment units, composting, bioenzymes, rain water harvesting, plastic waste management and many more</p>
+                            </ServiceInfo>
+                        </Service>
                     </ServicesList>
                 </Container>
             </Page>

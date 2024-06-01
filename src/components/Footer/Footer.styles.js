@@ -39,6 +39,11 @@ export const ContactInfo = styled.div`
     flex-grow: 1;
     flex-basis: 0;
     min-width: 0;
+
+    padding-top: 1rem;
+    @media (min-width: 500px) {
+        padding: 0;
+    }
 `;
 
 export const ContactInfoItem = styled.div`
@@ -58,9 +63,16 @@ export const Links = styled.div`
     display: flex;
     flex-direction: column;
 
+    padding-bottom: 1rem;
+
     flex-grow: 1;
     flex-basis: 0;
     min-width: 0;
+
+    @media (min-width: 500px) {
+        align-items: end;
+        padding: 0;
+    }
 `;
 
 export const LinkItem = styled(Link)`

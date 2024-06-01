@@ -10,6 +10,9 @@ const poppins = Poppins({
 export const metadata = {
   title: "Nisarga Eco Consultants",
   description: "Composting, Green Audit, Energy Audit, Environment Audit, Rainwater Harvesting, Sewage Treatment Plants",
+  icon: {
+    
+  }
 };
 
 export default function RootLayout({ children }) {
