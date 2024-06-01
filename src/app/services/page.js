@@ -79,9 +79,8 @@ export default function Services() {
                         </Service>
                     </ServicesList>
                 </Container>
-
-          <Footer />
             </Page>
+            <Footer />
         </>
     )
 }

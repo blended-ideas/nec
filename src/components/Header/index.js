@@ -9,10 +9,10 @@ export default function Header() {
             <CustomContainer>
                 <Link href="/">
                     <Image
-                        src="/logo.png"
+                        src="/logo_light.svg"
                         alt="Nisarga Eco Consultants"
-                        width={96}
-                        height={32}
+                        width={160}
+                        height={48}
                         priority
                     />
                 </Link>
