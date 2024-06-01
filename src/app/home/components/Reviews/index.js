@@ -54,7 +54,7 @@ export default function Reviews() {
                 <Reviewers>
                     {
                         REVIEWS.map((review, index) => (
-                            <Reviewer key={review.name} selected={(currentReviewIndex === index).toString()} onClick={() => selectReview(index)}>
+                            <Reviewer key={review.name} selected={currentReviewIndex === index} onClick={() => selectReview(index)}>
                                 <h6>{review.name}</h6>
                                 <p>{review.designation}</p>
                             </Reviewer>

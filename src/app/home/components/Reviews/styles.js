@@ -71,7 +71,7 @@ export const Reviewer = styled.li`
     flex-grow: 1;
     flex-basis: 0;
 
-    ${props => props.selected === 'true' ? css`
+    ${props => props.selected ? css`
         background-color: var(--color-white);
     ` : null}
 
