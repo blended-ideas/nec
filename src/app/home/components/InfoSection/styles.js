@@ -73,7 +73,7 @@ export const StatsList = styled.dl`
     gap: 2rem;
 
     border-radius: 1.5rem;
-    background: #028E48;
+    background: var(--color-secondary-dark);
     padding: 2rem 2.5rem;
 
     @media (min-width: 500px) {

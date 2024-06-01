@@ -15,7 +15,7 @@ export const CustomContainer = styled(Container)`
     display: grid;
     padding: 0 1rem;
     min-height: calc(100vh - var(--header-height));
-    min-height: calc(100vh - var(--header-height));  
+    min-height: calc(100svh - var(--header-height));
     
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
@@ -33,7 +33,7 @@ export const TextContainer = styled.div`
     justify-content: center;
     gap: 2.5rem;
 
-    color: #FFFFFF;
+    color: var(--color-white);
     padding: 2.5rem 0;
 
     @media (min-width: 500px) {
@@ -58,7 +58,7 @@ export const Info = styled.p`
 
 export const KnowMoreButton = styled(Link)`
     align-self: center;
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     text-decoration: none;
     color: #1E1E1E;
     cursor: pointer;
