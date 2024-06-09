@@ -4,10 +4,10 @@ import styled from "styled-components";
 
 export const Banner = styled.div`
     min-height: 40vh;
-    background-image: url("/services/banner.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${props => props.bgImage || "/services/banner.png"});
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: ${props => props.bgPosition || 'center'};
 
     display: flex;
     align-items: center;

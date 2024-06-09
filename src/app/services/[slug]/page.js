@@ -13,7 +13,7 @@ export default function Service({ params }) {
 
     return (
         <>
-            <Banner bgImage={service.bgImage}>
+            <Banner bgImage={service.bgImage} bgPosition={service.bgPosition}>
                 <BannerContent> {service.info.title} </BannerContent>
             </Banner>
 

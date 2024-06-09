@@ -5,7 +5,8 @@ export const SERVICES = Object.freeze([
             title: 'Rain Water Harvesting',
             description: 'Explore rainwater harvesting solutions in Bengaluru, Karnataka, India on our website. Discover innovative techniques and reliable resources to promote water sustainability and combat water scarcity effectively'
         },
-        bgImage: "",
+        bgImage: "/services/bgImages/rwh.jpg",
+        bgPosition: "center",
         info: {
             title: "Rain Water Harvesting",
             subTitle: "Effective Solutions",
@@ -32,7 +33,8 @@ export const SERVICES = Object.freeze([
             title: 'Sewage Treatment Plants',
             description: 'Experience our expertise in Sewage Treatment Plants, offering design, equipment supply, and operations and maintenance services. Safely release effluent through effective sewage treatment techniques. Bengaluru, Karnataka, India'
         },
-        bgImage: "",
+        bgImage: "/services/bgImages/stp.jpg",
+        bgPosition: "center",
         info: {
             title: "Sewage Treatment Plants",
             subTitle: "Innovative Approaches",
@@ -55,7 +57,8 @@ export const SERVICES = Object.freeze([
             title: 'Green audit',
             description: 'Enhance sustainability with Green, Energy, and Environment Audits. Transform campuses into eco-friendly spaces with waste management, energy conservation, and green initiatives. Bengaluru, Karnataka, India'
         },
-        bgImage: "",
+        bgImage: "/services/bgImages/ga.jpg",
+        bgPosition: "center",
         info: {
             title: "Green audit",
             subTitle: "Sustainable Solutions",
@@ -82,7 +85,8 @@ export const SERVICES = Object.freeze([
             title: 'Composting',
             description: 'Nisarga Eco Consultants introduces cutting-edge Aerobic composting technology for efficient decomposition of food waste and plant matter. Reduce your carbon footprint with our eco-friendly solution! Bengaluru, Karnataka, India'
         },
-        bgImage: "",
+        bgImage: "/services/bgImages/composting.jpg",
+        bgPosition: "center",
         info: {
             title: "Composting",
             subTitle: "Wet Waste Solutions",
@@ -107,13 +111,14 @@ export const SERVICES = Object.freeze([
         slug: 'workshops',
         meta: {
             title: 'Workshops',
-            description: 'Nisarga Eco Consultants introduces cutting-edge Aerobic composting technology for efficient decomposition of food waste and plant matter. Reduce your carbon footprint with our eco-friendly solution! Bengaluru, Karnataka, India'
+            description: 'Learn how to live sustainably with our workshops. Explore topics like composting, rainwater harvesting, and nature-based sewage treatment units. Join us to gain knowledge on bioenzymes, plastic waste management, and more. Start making a positive impact on the environment now! Bengaluru, Karnataka, India'
         },
-        bgImage: "",
+        bgImage: "/services/bgImages/workshop.jpg",
+        bgPosition: "center",
         info: {
             title: "Workshops",
             subTitle: "Learn to save",
-            icon: "/services/icons/composting.svg",
+            icon: "/services/icons/workshop.svg",
             description: [
                 `We organize workshops on sustainable living, nature based sewage treatment units, composting, bioenzymes,
                  rain water harvesting, plastic waste management and many more.`
