@@ -3,6 +3,7 @@ import { StyledFooter, ContactInfo, ContactInfoItem, ContactContainer, Links, Li
 import Image from 'next/image';
 import Link from 'next/link';
 import { Container } from '../Container';
+import { SERVICES } from '@/app/services/[slug]/service.constants';
 
 export default function Footer() {
   const year = (new Date()).getFullYear();
@@ -37,6 +38,11 @@ export default function Footer() {
           <LinkItem href="/about">About Us</LinkItem>
           <LinkItem href="/services">Our Services</LinkItem>
           <LinkItem target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSdTlygLlHTX6bZiRaHtqL-Amvys-Q_1vCHmosmxqx41xHEMtQ/viewform?usp=sf_link">Contact Us</LinkItem>
+        </Links>
+        <Links>
+          {
+            SERVICES.map(s => <LinkItem href={`/services/${s.slug}`} key={s.slug}>{s.info.title}</LinkItem>)
+          }
         </Links>
       </ContactContainer>
       <RightsInfo>© {year} Nisarga Eco Consultants - All Rights Reserved.</RightsInfo>

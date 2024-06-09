@@ -5,38 +5,39 @@ import { ReviewsBG, ReviewsContainer, Title, CurrentReviewText, Reviewers, Revie
 const REVIEWS = [
     {
         name: 'Deepa M',
-        designation: 'Homemaker',
-        review: `
-            I couldn't be happier with the rainwater harvesting system installed by Nisarga Eco Consultants.
+        designation: 'Homemaker, Bengaluru',
+        review: [
+            `I couldn't be happier with the rainwater harvesting system installed by Nisarga Eco Consultants.
             Not only have we significantly reduced our reliance on BWSSB water, but my garden has never looked greener.
             The team was professional, knowledgeable, and made the entire process seamless.
             It's a great feeling to contribute to water conservation while also saving on our water bills!
-        `
+            `
+        ]
     },
     {
-        name: 'Rahul SR',
-        designation: 'CEO of GreenTech Industries',
-        review: `
-            Nisarga Eco Consultants conducted a comprehensive Energy Audit for our manufacturing facility, and the results were astounding.
-            They identified key areas where we could improve our energy efficiency and reduce costs. 
-            Thanks to their recommendations, we've seen a 25% reduction in our energy bills and a significant decrease in our 
-            carbon footprint. Their expertise and dedication to sustainability are truly commendable.
-        `
+        name: 'Sri Raghavendra Suhas',
+        designation: 'IGP, Northern Range, Karnataka',
+        review: [
+            `Pradeep has made hard efforts and also made innovative out of the box thinking in Water Conservation.
+            Their ideas were put to practice in Belgaum Club. It was demonstrated to Government officers and public.`,
+            `Public were educated and awareness was created in water harvesting, water conservation, Environment protection. 
+            The qualitative work has recharged groundwater table and improved moister content in the land. Wish him good luck 
+            in future to do more innovative work in water conservation and Environment protection.`
+        ]
     },
     {
-        name: 'Dr. Arpitha',
-        designation: 'MD - Community Medicine',
-        review: `
-            The composting program implemented by Nisarga Eco Consultants has been a game-changer for our community. 
-            We've diverted a substantial amount of organic waste from landfills and produced high-quality compost that we use 
-            in our community garden. The educational workshops they provided were also fantastic, helping us and our community
-            members understand the importance and benefits of composting.
-        `
+        name: 'Dr. Prasanna Kumar',
+        designation: 'Professor, RL Law College, Belagavi',
+        review: [
+            `My association with Shri Pradeep Nagamalli started with the requirement for a rainwater harvesting unit for my residential site.  The availability of space was a challenge to them and provided the impetus to develop a unique rainwater harvesting filtration unit.  Their yearlong research and hard work resulted in a versatile, vertical, innovative rainwater harvesting product that requires less space, minimal plumbing and no excavation or civil work.`,
+            `The expert know how of P & V articulated in organising many programmes in and through my R. L. Law college.   Programmes like Water Survey (of Guruprasad Colony, Bhavani Nagar and Nityanand Nagar), Water conservation awareness programmes to National Service Scheme Volunteers and to the general public of kinaye village are organised.`,
+            `I am looking forward to take this association forward to next level in creating, conserving forest.`
+        ]
     }
 ]
 
 export default function Reviews() {
-    const [currentReviewIndex, setCurrentReviewIndex] = useState(1); 
+    const [currentReviewIndex, setCurrentReviewIndex] = useState(1);
     const currentReview = REVIEWS[currentReviewIndex];
 
     const selectReview = (index) => {
@@ -49,7 +50,7 @@ export default function Reviews() {
                 <Title><p>Our happy client stories</p></Title>
 
                 <CurrentReviewText>
-                    {currentReview.review}
+                    {currentReview.review.map(r => <p key={r}>{r}</p>)}
                 </CurrentReviewText>
                 <Reviewers>
                     {
