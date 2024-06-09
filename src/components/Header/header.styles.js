@@ -10,21 +10,6 @@ export const StyledHeader = styled.header`
     z-index: 1;
 `;
 
-export const Navigation = styled.div`
-    list-style: none;
-    justify-content: space-between;
-    padding: 0;
-    display: flex;
-    gap: 2.5rem;
-    font-weight: 500;
-`;
-
-export const NavigationItem = styled(Link)`
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-`;
-
 export const CustomContainer = styled(Container)`
     display: flex;
     align-items: center;

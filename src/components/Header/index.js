@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import { StyledHeader, Navigation, NavigationItem, CustomContainer } from './header.styles';
+import { StyledHeader, CustomContainer } from './header.styles';
 import Link from 'next/link';
+import Navigation from './Navigation';
 
 export default function Header() {
     return (
@@ -17,10 +18,7 @@ export default function Header() {
                     />
                 </Link>
 
-                <Navigation>
-                    <NavigationItem href="/about">About</NavigationItem>
-                    <NavigationItem href="/services">Services</NavigationItem>
-                </Navigation>
+                <Navigation />
             </CustomContainer>
         </StyledHeader>
     )
