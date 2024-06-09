@@ -33,15 +33,19 @@ export const Title = styled.div`
     & p {
         background-color: var(--color-secondary-dark);
         color: var(--color-white);
-        padding: 0.625rem;
+        padding: 0.625rem 1rem;
         border-radius: 2rem;
+        font-size: 1.5rem;
     }
 `;
 
-export const CurrentReviewText = styled.p`
+export const CurrentReviewText = styled.div`
     font-weight: 600;
-    font-size: 1.5rem;
-
+    font-size: 1.25rem;
+    & > p {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
 `;
 
 export const Reviewers = styled.ul`
