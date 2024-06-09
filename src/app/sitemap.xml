@@ -1,48 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-  <loc>http://www.nisargaecoconsultants.com/</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
+  <loc>https://www.nisargaecoconsultants.com/</loc>
+  <lastmod>2024-06-09T13:14:30+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.nisargaecoconsultants.com/about</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
+  <loc>https://www.nisargaecoconsultants.com/about</loc>
+  <lastmod>2024-06-09T13:14:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.nisargaecoconsultants.com/services</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
+  <loc>https://www.nisargaecoconsultants.com/services</loc>
+  <lastmod>2024-06-09T13:14:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.nisargaecoconsultants.com/tel:+91-7760251535</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
+  <loc>https://www.nisargaecoconsultants.com/services/rain-water-harvesting</loc>
+  <lastmod>2024-06-09T13:14:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.nisargaecoconsultants.com/services/rain-water-harvesting</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
+  <loc>https://www.nisargaecoconsultants.com/services/sewage-treatment-plants</loc>
+  <lastmod>2024-06-09T13:14:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.nisargaecoconsultants.com/services/sewage-treatment-plants</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
+  <loc>https://www.nisargaecoconsultants.com/services/green-audit</loc>
+  <lastmod>2024-06-09T13:14:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.nisargaecoconsultants.com/services/green-audit</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
+  <loc>https://www.nisargaecoconsultants.com/services/composting</loc>
+  <lastmod>2024-06-09T13:14:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.nisargaecoconsultants.com/services/composting</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
+  <loc>https://www.nisargaecoconsultants.com/services/workshops</loc>
+  <lastmod>2024-06-09T13:14:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-  <loc>http://www.nisargaecoconsultants.com/services/workshops</loc>
-  <changefreq>monthly</changefreq>
-  <lastmod>2024-06-09</lastmod>
-</url>
+
+
 </urlset>

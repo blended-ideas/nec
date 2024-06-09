@@ -13,14 +13,14 @@ export default function Service({ params }) {
 
     return (
         <>
-            <Banner>
+            <Banner bgImage={service.bgImage}>
                 <BannerContent> {service.info.title} </BannerContent>
             </Banner>
 
             <CustomContainer>
                 <InfoContainer>
                     <InfoHeading>
-                        <Image src={service.info.icon} height={44} width={44} alt={service.title} />
+                        <Image src={service.info.icon} height={44} width={44} alt={service.info.title} />
                         {service.info.subTitle}
                     </InfoHeading>
                     <Info>
