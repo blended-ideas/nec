@@ -2,10 +2,17 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import React from 'react';
 import { CustomContainer, Label, CenterContent, EmptySection, CustomCenterImage } from './AboutUs.styles';
+import { COMMON_OG_TAGS } from '../common.constants';
 
 export const metadata = {
   title: "Nisarga Eco Consultants | About Us",
-  description: "Services Offered by Nisarga Eco Consultants, Composting, Green Audit, Energy Audit, Environment Audit, Rainwater Harvesting, Sewage Treatment Plants",
+  description: "Nisarga Eco Consultants provide services in Sewage and Effluent Treatment Plants, Water Purification Solutions, Rainwater harvesting, Biogas Plants and toilet linked biogas plants, Green Audits, Energy Audits. We supply equipments, pumps, RO Plants, STP's, ETP's",
+  openGraph: {
+    title: "Nisarga Eco Consultants | About Us",
+    description: "Nisarga Eco Consultants provide services in Sewage and Effluent Treatment Plants, Water Purification Solutions, Rainwater harvesting, Biogas Plants and toilet linked biogas plants, Green Audits, Energy Audits. We supply equipments, pumps, RO Plants, STP's, ETP's",
+    url: '/about',
+    ...COMMON_OG_TAGS
+  }
 };
 
 export default function AboutUs() {
