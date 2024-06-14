@@ -2,6 +2,7 @@ import React from 'react'
 import { SERVICES } from './service.constants';
 import { Banner, BannerContent, CustomContainer, Info, InfoContainer, InfoHeading } from './styles';
 import Image from 'next/image';
+import { COMMON_OG_TAGS } from '@/app/common.constants';
 
 export default function Service({ params }) {
     const { slug } = params;
@@ -45,6 +46,12 @@ export async function generateMetadata({ params }) {
     const service = SERVICES.find(s => s.slug === slug);
     return {
         title: `Nisarga Eco Consultants | ${service?.meta.title || 'Service'}`,
-        description: service?.meta.description || ''
+        description: service?.meta.description || '',
+        openGraph: {
+            title: `Nisarga Eco Consultants | ${service?.meta.title || 'Service'}`,
+            description: service?.meta.description || '',
+            url: `/services/${service.slug}`,
+            ...COMMON_OG_TAGS,
+        }
     }
 }

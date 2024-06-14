@@ -3,7 +3,7 @@ export const SERVICES = Object.freeze([
         slug: 'rain-water-harvesting',
         meta: {
             title: 'Rain Water Harvesting',
-            description: 'Explore rainwater harvesting solutions in Bengaluru, Karnataka, India on our website. Discover innovative techniques and reliable resources to promote water sustainability and combat water scarcity effectively'
+            description: 'Nisarga RWH Unit is unique in its design. The unit is compact and avoids the need for excavation or any civil works in the site. Installation of the unit can be done by certain simple modifications in the plumbing network and time required to install is minimal.'
         },
         bgImage: "/services/bgImages/rwh.jpg",
         bgPosition: "center",
@@ -31,7 +31,7 @@ export const SERVICES = Object.freeze([
         slug: 'sewage-treatment-plants',
         meta: {
             title: 'Sewage Treatment Plants',
-            description: 'Experience our expertise in Sewage Treatment Plants, offering design, equipment supply, and operations and maintenance services. Safely release effluent through effective sewage treatment techniques. Bengaluru, Karnataka, India'
+            description: 'We offer the best technologies in Sewage Treatment Plants. Our expertise includes designing of STP\'s, supply of equipment’s, operations and maintenance (new and existing plants).'
         },
         bgImage: "/services/bgImages/stp.jpg",
         bgPosition: "center",
@@ -55,7 +55,7 @@ export const SERVICES = Object.freeze([
         slug: 'green-audit',
         meta: {
             title: 'Green audit',
-            description: 'Enhance sustainability with Green, Energy, and Environment Audits. Transform campuses into eco-friendly spaces with waste management, energy conservation, and green initiatives. Bengaluru, Karnataka, India'
+            description: 'We conduct Green Audits and provide sustainable solutions as per the clients requirements.'
         },
         bgImage: "/services/bgImages/ga.jpg",
         bgPosition: "center",
@@ -83,7 +83,7 @@ export const SERVICES = Object.freeze([
         slug: 'composting',
         meta: {
             title: 'Composting',
-            description: 'Nisarga Eco Consultants introduces cutting-edge Aerobic composting technology for efficient decomposition of food waste and plant matter. Reduce your carbon footprint with our eco-friendly solution! Bengaluru, Karnataka, India'
+            description: 'Our Technology has been approved by the National Green Tribunal – SLC for “Technology for Processing of Wetwaste for Bulk Generations and Households”'
         },
         bgImage: "/services/bgImages/composting.jpg",
         bgPosition: "center",
