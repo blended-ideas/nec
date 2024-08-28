@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import StyledComponentsRegistry from '../lib/registry';
 import { COMMON_OG_TAGS } from "./common.constants";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <StyledComponentsRegistry>
           {children}
         </StyledComponentsRegistry>
+        <GoogleAnalytics gaId="G-KXNF45ZKY1" />
       </body>
     </html>
   );
